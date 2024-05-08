@@ -33,7 +33,7 @@ const App = () => {
     });
     return;
   };
-
+ 
   // Update Job
   const updateJob = async (job) => {
     const res = await fetch(`/api/jobs/${job.id}`, {

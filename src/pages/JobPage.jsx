@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useParams, useLoaderData, useNavigate } from 'react-router-dom';
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -15,7 +16,7 @@ const JobPage = ({ deleteJob }) => {
 
     if (!confirm) return;
 
-    deleteJob(jobId);
+    deleteJob(jobId); 
 
     toast.success('Job deleted successfully');
 
