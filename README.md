@@ -2,6 +2,26 @@
 
 This is the jobs listing project where you can browse multiple jobs.
 
+
+## Screen Shot
+
+- Home Page
+
+<img src="public/screen1.png" />
+
+- Job Description 
+
+<img src="public/screen4.png" />
+
+- Browse Page
+
+<img src="public/screen2.png" />
+
+- Add Job Page
+
+<img src="public/screen3.png" />
+
+
 ## Setup 
 
 - Install react app using vite 
@@ -62,21 +82,3 @@ npm run dev
 ### Backend
 
 This project uses JSON-Server for a mock backend.
-
-## Screen Shot
-
-- Home Page
-
-<img src="public/screen1.png" />
-
-- Job Description 
-
-<img src="public/screen4.png" />
-
-- Browse Page
-
-<img src="public/screen2.png" />
-
-- Add Job Page
-
-<img src="public/screen3.png" />
